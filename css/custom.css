@@ -1,0 +1,78 @@
+/*********COLORS************
+https://coolors.co/palette/cad2c5-84a98c-52796f-354f52-2f3e46
+Ash Grey-cad2c5
+Muted Teal-84a98c
+Deep Teal-52796f
+Dark Slate Grey-354f52
+Charcoal Blue-2f3e46
+*********COLORS************/
+
+
+
+
+/*******FONTS*******/
+/*******FONTS*******/
+/*******FONTS*******/
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Stack Sans Headline", sans-serif;
+}
+p {
+    font-family: "DM Sans", sans-serif;
+}
+/*******FONTS*******/
+/*******FONTS*******/
+/*******FONTS*******/
+
+
+
+
+
+/*******HERO*******/
+/*******HERO*******/
+/*******HERO*******/
+#hero-text {
+    font-size: 125px;
+    letter-spacing: 0.25px;
+}
+
+.btn-primary {
+    background-color: #354f52;
+    border-color: #354f52;
+}
+
+.btn-primary:hover:not(.bg-transparent), .btn-primary.hover:not(.bg-transparent),
+.btn-primary:focus:not(.bg-transparent), .btn-primary.focus:not(.bg-transparent),
+.btn-primary:active:not(.bg-transparent), .btn-primary.active:not(.bg-transparent) {
+	background-color: #52796f !important;
+    border-color: #52796f;
+}
+/*******HERO*******/
+/*******HERO*******/
+/*******HERO*******/
+
+
+
+
+/*******ALPS*******/
+/*******ALPS*******/
+/*******ALPS*******/
+#alps-title{
+    font-weight: bold;
+}
+
+
+/*******ALPS*******/
+/*******ALPS*******/
+/*******ALPS*******/
+
+.header-column {
+    display: flex !important;
+    justify-content: flex-start !important;
+    text-align: left !important;
+}
+
+.header-row, .header-logo, .header-logo h1 {
+    margin: 0 !important;
+    text-align: left !important;
+}
+
