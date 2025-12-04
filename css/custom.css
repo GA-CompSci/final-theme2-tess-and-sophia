@@ -46,6 +46,10 @@ p {
 	background-color: #52796f !important;
     border-color: #52796f;
 }
+
+#nav-title{
+    color: white;
+}
 /*******HERO*******/
 /*******HERO*******/
 /*******HERO*******/
@@ -75,4 +79,3 @@ p {
     margin: 0 !important;
     text-align: left !important;
 }
-
