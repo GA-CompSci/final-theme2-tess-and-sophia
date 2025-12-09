@@ -79,3 +79,23 @@ p {
     margin: 0 !important;
     text-align: left !important;
 }
+
+/*******REMINDERS*******/
+/*******REMINDERS*******/
+/*******REMINDERS*******/
+#reminders{
+    color:#2f3e46;
+    font-size: 20px;
+}
+
+
+
+/*******REMINDERS*******/
+/*******REMINDERS*******/
+/*******REMINDERS*******/
+
+/******MEETINGS FOOTER********/
+#footer p {
+    text-align: center !important;
+    margin: 0 auto !important;
+}
