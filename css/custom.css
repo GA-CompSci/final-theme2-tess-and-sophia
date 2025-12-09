@@ -50,6 +50,9 @@ p {
 #nav-title{
     color: white;
 }
+
+
+
 /*******HERO*******/
 /*******HERO*******/
 /*******HERO*******/
@@ -94,8 +97,41 @@ p {
 /*******REMINDERS*******/
 /*******REMINDERS*******/
 
-/******MEETINGS FOOTER********/
-#footer p {
-    text-align: center !important;
-    margin: 0 auto !important;
+/******MEETINGS********/
+/******MEETINGS********/
+/******MEETINGS********/
+.solid-hero {
+    background-color: #52796f;
+    background-image: none !important;
 }
+
+.meeting-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.meeting-list li {
+    background: #cad2c5;
+    padding: 20px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.meeting-list h3 {
+    margin: 0 0 10px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.meeting-list p {
+    background: #e4eedd;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin: 6px 0;
+    color:#2f3e46;
+}
+
+/******MEETINGS********/
+/******MEETINGS********/
+/******MEETINGS********/

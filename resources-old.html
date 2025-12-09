@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Crew 555 Resources</title>
+<style>
+/* COLOR PALETTE */
+:root {
+  --ash-grey: #cad2c5;
+  --muted-teal: #84a98c;
+  --deep-teal: #52796f;
+  --dark-slate-grey: #354f52;
+  --charcoal-blue: #2f3e46;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--charcoal-blue);
+  margin: 0;
+  padding: 0;
+  color: var(--ash-grey);
+}
+
+/* HEADER */
+header {
+  background: var(--dark-slate-grey);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* MAIN SECTION */
+.resources-section {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.section-title {
+  font-size: 36px;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.category-header {
+  font-size: 26px;
+  margin: 40px 0 20px;
+  font-weight: 600;
+  color: var(--muted-teal);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* GRID */
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+/* RESOURCE CARD */
+.resource-card {
+  background: #52796f;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+}
+
+.resource-card:hover {
+  transform: translateY(-6px);
+  background: var(--deep-teal);
+}
+
+.resource-card h3 {
+  margin: 0 0 10px;
+  color: white;
+  font-size: 22px;
+}
+
+.resource-card p {
+  font-size: 15px;
+  color: var(--ash-grey);
+  margin-bottom: 16px;
+}
+
+.resource-card a {
+  display: inline-block;
+  padding: 8px 14px;
+  background: var(--muted-teal);
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.resource-card a:hover {
+  background: var(--ash-grey);
+}
+
+footer {
+  text-align: center;
+  padding: 30px 0;
+  background: var(--dark-slate-grey);
+  color: var(--ash-grey);
+  margin-top: 60px;
+}
+</style>
+</head>
+<body>
+<header>Crew 555 Resources</header>
+
+<section class="resources-section">
+  <h2 class="section-title">Venturing Resources & Useful Links</h2>
+
+  <!-- ADVANCEMENT RELATED -->
+  <h3 class="category-header">Advancement-Related</h3>
+  <div class="resources-grid">
+
+    <div class="resource-card">
+      <h3>Requirements List</h3>
+      <p>Full list of all requirements for Venturing advancement.</p>
+      <a href="https://www.scouting.org/programs/venturing/advancement/" target="_blank">Open</a>
+      <h3>Venturing Rank</h3>
+      <p>Requirements and details for earning the Venturing Rank.</p>
+      <a href="https://www.scouting.org/programs/venturing/advancement/venturing/" target="_blank">Open</a>
+      <h3>Discovery Rank</h3>
+      <p>Learn what it takes to earn the Discovery Rank.</p>
+      <a href="https://www.scouting.org/programs/venturing/advancement/discovery/" target="_blank">Open</a>
+      <h3>Pathfinder Rank</h3>
+      <p>Rank requirements and guidance for Pathfinder.</p>
+      <a href="https://www.scouting.org/programs/venturing/advancement/pathfinder/" target="_blank">Open</a>
+      <h3>Summit Rank</h3>
+      <p>The highest Venturing rank — requirements and project info.</p>
+      <a href="https://www.scouting.org/programs/venturing/advancement/summit/" target="_blank">Open</a>
+    </div>
+
+    <div class="resource-card">
+      <h3>Personal Safety Awareness Training</h3>
+      <p>Required videos for completing the Venturing Rank.</p>
+      <a href="https://www.scouting.org/training/youth/venturing-psa/" target="_blank">Open</a>
+    </div>
+
+    <div class="resource-card">
+      <h3>Tiers of Adventure</h3>
+      <p>Explanation of the four adventure tiers used in Venturing.</p>
+      <a href="https://www.scouting.org/programs/venturing/awards/tiers-of-adventure/" target="_blank">Open</a>
+    </div>
+
+  </div>
+
+  <!-- CAMPING RELATED -->
+  <h3 class="category-header">Camping-Related</h3>
+  <div class="resources-grid">
+
+    <div class="resource-card">
+      <h3>Recommended Gear Guide</h3>
+      <p>Official list of recommended gear for Venturing camping.</p>
+      <a href="https://www.scouting.org/outdoor-programs/camping/gear/" target="_blank">Open</a>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  Crew 555 • 2025
+</footer>
+
+</body>
+</html>
