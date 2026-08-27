@@ -27,11 +27,12 @@ p {
 
 
 
+
+
 /*******HERO*******/
 /*******HERO*******/
 /*******HERO*******/
 #hero-text {
-    font-size: 125px;
     letter-spacing: 0.25px;
 }
 
@@ -51,11 +52,47 @@ p {
     color: white;
 }
 
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  #hero-text {
+    font-size: 120px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+ #hero-text {
+    font-size: 60px;
+  }
+}
+
+/*******HERO*******/
+/*******HERO*******/
+/*******HERO*******/
 
 
-/*******HERO*******/
-/*******HERO*******/
-/*******HERO*******/
+
+
+
+/******HEADER******/
+/******HEADER******/
+/******HEADER******/
+.header-column {
+    display: flex !important;
+    justify-content: flex-start !important;
+    text-align: left !important;
+}
+
+.header-row, .header-logo, .header-logo h1 {
+    margin: 0 !important;
+    text-align: left !important;
+}
+/******HEADER******/
+/******HEADER******/
+/******HEADER******/
+
+
+
 
 
 
@@ -67,21 +104,15 @@ p {
     font-weight: bold;
 }
 
-
 /*******ALPS*******/
 /*******ALPS*******/
 /*******ALPS*******/
 
-.header-column {
-    display: flex !important;
-    justify-content: flex-start !important;
-    text-align: left !important;
-}
 
-.header-row, .header-logo, .header-logo h1 {
-    margin: 0 !important;
-    text-align: left !important;
-}
+
+
+
+
 
 /*******REMINDERS*******/
 /*******REMINDERS*******/
@@ -89,13 +120,29 @@ p {
 #reminders{
     color:#2f3e46;
     font-size: 20px;
+    padding: 5px;
 }
 
+#rem-title{
+    font-size: 42px;
+}
+
+/*******REMINDERS*******/
+/*******REMINDERS*******/
+/*******REMINDERS*******/
 
 
-/*******REMINDERS*******/
-/*******REMINDERS*******/
-/*******REMINDERS*******/
+
+
+
+
+
+
+
+
+
+
+
 
 /******MEETINGS********/
 /******MEETINGS********/
@@ -121,7 +168,7 @@ p {
 
 .meeting-list h3 {
     margin: 0 0 10px;
-    font-size: 1.25rem;
+    font-size: 20px;
     font-weight: 600;
 }
 .meeting-list p {
@@ -132,6 +179,86 @@ p {
     color:#2f3e46;
 }
 
+#meeting-title{
+    text-transform: none;
+}
+
 /******MEETINGS********/
 /******MEETINGS********/
 /******MEETINGS********/
+
+
+
+
+
+
+
+/******RESOURCES********/
+/******RESOURCES********/
+/******RESOURCES********/
+#resource-btn{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size:14px;
+    text-align: left;
+    text-transform:none !important;
+}
+
+#resource-tog {
+    background-color: #354f52;
+    border-color: #354f52;
+    color:white;
+}
+
+#resource-tog:hover{
+    background-color: #52796f;
+    border-color:#52796f;
+}
+
+#resource-sites{
+    font-weight: bold;
+}
+
+/******RESOURCES********/
+/******RESOURCES********/
+/******RESOURCES********/
+
+
+
+
+
+
+
+
+/*******QUESTIONS**********/
+/*******QUESTIONS**********/
+/*******QUESTIONS**********/
+
+#questions{
+    color:black !important;
+    font-size: 30px !important;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#card-text{
+    font-size: 22px;
+    text-align:center;
+    color:#354f52;
+    background-color: #e4eedd;
+    border-radius: 25px;
+}
+
+.card-body{
+    background-color: #cad2c5;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.email {
+    color:#52796f;
+}
+
+/*******QUESTIONS**********/
+/*******QUESTIONS**********/
+/*******QUESTIONS**********/
